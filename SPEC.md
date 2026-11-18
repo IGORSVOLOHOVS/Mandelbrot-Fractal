@@ -3,6 +3,25 @@
 Восстановлена по коду коммита `7621fdd` (ветка `origin/dev`), 2026-11-18. Описывает
 только реализованное поведение. Обзор проекта — [docs/README.md](docs/README.md).
 
+<!-- jira-sync:start -->
+Jira: KAN-120
+
+## Tasks
+
+This list is one ticket in Jira project KAN, [KAN-120](https://igorsvolohovs.atlassian.net/browse/KAN-120). Each line is a checkbox there: tick it in Jira and the sync ticks it here; add a checkbox there and it is appended here. Done items are the features described in section 3; open items are what the project declares but the code does not do yet.
+
+- [x] Математика фрактала (section 3) <!-- spec-a4fe868534 -->
+- [x] Параллельный рендер (section 3) <!-- spec-4e04394e18 -->
+- [x] Ввод (section 3) <!-- spec-c15522ef34 -->
+- [x] Вывод (section 3) <!-- spec-7cdfd5e1c1 -->
+- [x] Приложение (section 3) <!-- spec-f9886ca2bc -->
+- [ ] `set_stopped_t()` объявлен в сигнатурах `MandelbrotSender`, (declared, not implemented) <!-- spec-setstoppedt-mandelbrotsender -->
+- [ ] `RenderResult::render_time` заполняется, но не используется (declared, not implemented) <!-- spec-renderresult-rendertime -->
+- [ ] `SFMLRender::render_settings_` хранится, но в состояние операции не передаётся (declared, not implemented) <!-- spec-sfmlrender-rendersettings-49e9de3e7d -->
+- [ ] `README.md:90` упоминает конфигурацию «Launch GeometryApp» — её нет в (declared, not implemented) <!-- spec-readme-md-90-launch-geometryapp -->
+
+<!-- jira-sync:end -->
+
 ## 1. Назначение и границы
 
 Интерактивная визуализация множества Мандельброта в окне SFML с расчётом кадра
